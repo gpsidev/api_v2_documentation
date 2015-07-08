@@ -1,1 +1,6 @@
-Description and examples for /v2/garmin/dispatch to follow...
+Example Response:
+
+    {
+    head: { ... },
+    data: "Dispatch sent"
+    }
