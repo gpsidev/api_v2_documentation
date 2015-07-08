@@ -1,1 +1,0 @@
-A static list of entities of this type.
