@@ -1,1 +1,8 @@
-Description and examples for /v2/garmin/deleteCannedMessage to follow...
+Example Response:
+
+    {
+    head: { ... },
+    data: [
+    {   result: "Expired"   
+    }
+    ]}
