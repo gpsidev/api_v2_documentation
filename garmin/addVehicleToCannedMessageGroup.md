@@ -6,8 +6,8 @@ Add a vehicle to a Canned Message Group.  This can be done by vehicle name, vin,
     * http://api.gpsinsight.com/v2/garmin/addVehicleToCannedMessageGroup?&token=authToken&group=X&vin=x
     * http://api.gpsinsight.com/v2/garmin/addVehicleToCannedMessageGroup?&token=authToken&group=X&lmu_serial=x
     * http://api.gpsinsight.com/v2/garmin/addVehicleToCannedMessageGroup?&token=authToken&group=X&nuvi_serial=x
-  
-* Response:
+
+  * Response:
     {
     head: { ... },
     data: [
