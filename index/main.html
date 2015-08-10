@@ -9,7 +9,7 @@
 
 <div class="Getting Started page-header">
     <h3 style="margin-left: 265px">Getting Started</h3>
-    <p>An application programming interface (API) specifies how some software components should interact with each other. GPS Insight's API provides a form of communication via XML or JSON coding language to push your fleet’s data from our system to your back-end systems, e.g. ERP, Dispatch, CRM. By using our API you can effortlessly integrate your fleet’s data into your back-end systems to provide transparency into payroll, fuel card transactions, additional documentation, asset management, and more.</p>
+    <p>An application programming interface (API) specifies how some software components should interact with each other. GPS Insight's API provides a form of communication via XML or JSON coding language to push your fleet’s data from our system to your back-end systems (e.g., ERP, Dispatch, CRM). By using our API you can effortlessly integrate your fleet’s data into your back-end systems to provide transparency into payroll, fuel card transactions, additional documentation, asset management, and more.</p>
     <img src="/apidocs/images/API_process.png">
     <p>The typical process for interacting with our API is broken into three high-level steps. You'll need to: <br>
     <ul>
@@ -51,13 +51,13 @@
     <h3 id="Request" style="margin-bottom: 10px; margin-top: 15px; margin-left: 195px">   Make a Request</h3>
       <p>
           Technically, you've already made a request (authentication) that returned a session token. Now, you can make additional requests--this time to return data from your GPS Insight account.<br><br>
-          <strong>Request Structure:</strong><br>
+          <strong>Request Structure</strong><br>
           Before you can make this request, you must understand the request structure.<br>
       </p>
         <img src="/apidocs/images/request_structure.png"/><br><br>
         <p>Use the table below to understand the parts of the following request structure:</p>
         <div class="well well-sm">
-        <p class="code">http://<span style="color: #ea6312; font-weight: bold;">api.gpsinsight.com/v2</span>/<span style="color: #e6b729; font-weight: bold;">vehicle</span>/<span style="color: #9e5e9b; font-weight: bold;">location</span>/<span style="color: #54849a; font-weight: bold;">xml</span>?<span style="color: #6aac90; font-weight: bold;">session_token=abcd1234</span>&amp;<span style="font-weight: bold; color: #808000;">vehicle=truck1</span>&amp;<span style="color: #996633; font-weight: bold;">reference_tag=request_00342</span> <!--[CDATA[ ]]--></p>
+        <p class="code">https://<span style="color: #ea6312; font-weight: bold;">api.gpsinsight.com/v2</span>/<span style="color: #e6b729; font-weight: bold;">vehicle</span>/<span style="color: #9e5e9b; font-weight: bold;">location</span>/<span style="color: #54849a; font-weight: bold;">xml</span>?<span style="color: #6aac90; font-weight: bold;">session_token=abcd1234</span>&amp;<span style="font-weight: bold; color: #808000;">vehicle=truck1</span>&amp;<span style="color: #996633; font-weight: bold;">reference_tag=request_00342</span> <!--[CDATA[ ]]--></p>
         </div>
     <div class="table">
         <table class="table table-hover table-bordered">
@@ -100,14 +100,10 @@
                 <td>vehicle=truck1</td>
                 <td></td>
             </tr>
-            <tr>
-                <td><strong>Reference Parameter</strong><br>Specifies an optional user-specified value that is returned in the response header (128 character max).</td>
-                <td>reference_tag=request_00342</td>
-                <td></td>
-            </tr>
             </tbody>
         </table>
     </div>
+    <p>Note: You can also add an optional, user-specified value that is returned in the response header (128 character max) to use for troubleshooting (i.e., reference_tag=request_00342), but it is not a core element of the request structure.</p>
     <h3 id="ProcessResponse" style="margin-bottom: 10px; margin-top: 15px; margin-left: 195px">   Process a Response</h3>
 
       <p><strong>Response Structure</strong><br>The default response will be structured with a head section with meta data about the request, an optional errors section, and a data section containing the formatted response data:</p>
@@ -187,8 +183,8 @@
                     How you process the response depends entirely on your purpose for using the API and the programming language in which the interfacing
                     application is written. GPS Insight provides you with the following simple JavaScript example for how you might use the GPS Insight
                     API to display vehicle location information--in this case on a third-party web map that resides outside of the GPS Insight portal
-                    (e.g. your company's website).<br><br>
-                    <a href="http://api.gpsinsight.com/v2/examples/javascript_example.html">http://api.gpsinsight.com/v2/examples/javascript_example.html<br><br>
+                    (e.g., your company's website).<br><br>
+                    <a href="https://api.gpsinsight.com/v2/examples/javascript_example.html">https://api.gpsinsight.com/v2/examples/javascript_example.html<br><br>
                     </a>
                     <img src="/apidocs/images/real_example.png">
                 </p>
