@@ -45,7 +45,7 @@
             </li>
             <br>
           </ul>
-        <div class="alert alert-danger" role="alert"><strong>Note:</strong> The App Token is not less sensitive than a password because it still provides full access to API functions for that user. The main benefits of using an API App are: that it does not allow access to the Portal site, it can be changed or deactivated by admin users, and app usage can be better tracked.</div>
+        <div class="alert alert-danger" role="alert"><strong>Note:</strong> The App Token is not less sensitive than a password because it still provides full access to API functions for that user. Using an API App offers the following benefits: It does not allow access to the Portal site, it can be changed or deactivated by admin users, and app usage can be better tracked.</div>
       </p>
 
     <h3 id="Request" style="margin-bottom: 10px; margin-top: 15px; margin-left: 195px">   Make a Request</h3>
@@ -57,7 +57,7 @@
         <img src="/apidocs/images/request_structure.png"/><br><br>
         <p>Use the table below to understand the parts of the following request structure:</p>
         <div class="well well-sm">
-        <p class="code">https://<span style="color: #ea6312; font-weight: bold;">api.gpsinsight.com/v2</span>/<span style="color: #e6b729; font-weight: bold;">vehicle</span>/<span style="color: #9e5e9b; font-weight: bold;">location</span>/<span style="color: #54849a; font-weight: bold;">xml</span>?<span style="color: #6aac90; font-weight: bold;">session_token=abcd1234</span>&amp;<span style="font-weight: bold; color: #808000;">vehicle=truck1</span>&amp;<span style="color: #996633; font-weight: bold;">reference_tag=request_00342</span> <!--[CDATA[ ]]--></p>
+        <p class="code">https://<span style="color: #ea6312; font-weight: bold;">api.gpsinsight.com/v2</span>/<span style="color: #e6b729; font-weight: bold;">vehicle</span>/<span style="color: #9e5e9b; font-weight: bold;">location</span>/<span style="color: #54849a; font-weight: bold;">xml</span>?<span style="color: #6aac90; font-weight: bold;">session_token=abcd1234</span>&amp;<span style="font-weight: bold; color: #808000;">vehicle=truck1</span> <!--[CDATA[ ]]--></p>
         </div>
     <div class="table">
         <table class="table table-hover table-bordered">
@@ -103,7 +103,8 @@
             </tbody>
         </table>
     </div>
-    <p>Note: You can also add an optional, user-specified value that is returned in the response header (128 character max) to use for troubleshooting (i.e., reference_tag=request_00342), but it is not a core element of the request structure.</p>
+    <p><div class="alert alert-danger" role="alert"><strong>Note:</strong> You can also add an optional, user-specified value that is returned in the response header (128 character max) to use for troubleshooting (i.e., reference_tag=request_00342), but it is not a core element of the request structure.</div>
+    </p>
     <h3 id="ProcessResponse" style="margin-bottom: 10px; margin-top: 15px; margin-left: 195px">   Process a Response</h3>
 
       <p><strong>Response Structure</strong><br>The default response will be structured with a head section with meta data about the request, an optional errors section, and a data section containing the formatted response data:</p>
