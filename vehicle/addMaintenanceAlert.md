@@ -1,1 +1,9 @@
-Description and examples for /v2/vehicle/addMaintenanceAlert to follow...
+Example:
+
+    {
+      head: { .... },
+      data: [
+        {
+          Updated
+        }
+      
