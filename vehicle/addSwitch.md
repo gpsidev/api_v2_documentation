@@ -1,1 +1,10 @@
-Description and examples for /v2/vehicle/addSwitch to follow...
+Example:
+
+    {
+      head: { .... },
+      data: [
+        {
+          Updated
+        }
+      ]
+    }
