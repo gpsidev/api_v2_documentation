@@ -4,10 +4,10 @@ Example Response:
         head: { .... },
         data: [
             {
-                alert_id: 1000,
-                description: "IDLE ALERT",
+                watcher_id: 1000,
+                instance_description: "IDLE ALERT",
                 active: 1,
-                alert_type: "idle"
+                watcher_type: "idle"
             }
         ]
     }
