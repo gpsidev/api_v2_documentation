@@ -8,8 +8,7 @@ Example Response:
       head: { .... },
       data: [
         {
-          groupId: 10140XX,
-          vehicleId: "GA385744XXXX"
-        }, { ... }
+          tree_id: "4551485",
+          result: "Created"
       ]
     }
