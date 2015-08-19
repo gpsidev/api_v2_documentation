@@ -1,4 +1,4 @@
-Example Request: https://api.gpsinsight.com/v2/dispatch/getcannedmessagegroup?session_token=xxxx&group=191
+Example Request: https://api.gpsinsight.com/v2/garmin/getcannedmessagegroup?session_token=xxxx&group=191
 
 Example Response:
 
