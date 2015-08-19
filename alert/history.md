@@ -17,5 +17,6 @@ Example Response:
                 alert_condition: "FLEETVAN1 idled 15 min (15 min threshold)",
                 alert_recipients: "email@example.com",
                 alert_date: "Aug 14 2015 10:23PM"
-            },
-        ] }
+            }
+        ] 
+    }
