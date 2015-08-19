@@ -1,3 +1,5 @@
+Example Request: https://api.gpsinsight.com/v2/alert/list?session_token=xxxx
+
 Example Response:
 
     {
@@ -14,6 +16,12 @@ Example Response:
           instance_description: "SPEEDING ALERT",
           active: 1,
           watcher_type: "speed"
+        }
+        {
+          watcher_id: 1102,
+          instance_description: "DELIVERY SIGNATURE ALERT",
+          active: 0,
+          watcher_type: "fence"
         }
       ]
     }
