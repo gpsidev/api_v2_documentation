@@ -1,15 +1,19 @@
-When retrieving a single canned message, you can do so by either specifying the message_id, or by specifying both the message type and sequence.
+Note: When retrieving a single canned message, you can do so by either specifying the message_id, or by specifying both the message type and sequence.
 
-Example Response: 
+Example Request: https://api.gpsinsight.com/v2/garmin/getcannedmessage?session_token=xxxx&message_id=294
+
+Example Response:
 
     {
-    head: { ... },
-    data: [
-    {   type: "Message",
-        message: "Test Message2",
-        message_id: 502997,
-        garmin_message_id: 54500,
-        seq: 578,
-        created: "6/24/14 8:30:30 AM" 
+      head: { .... },
+      data: [
+        {
+          type: "Status",
+          message: "Start of Day",
+          message_id: "294",
+          garmin_message_id: "100",
+          seq: "1",
+          created: "5/26/11 9:40:45 AM"
+        }
+      ]
     }
-    ]}
