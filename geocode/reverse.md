@@ -1,27 +1,28 @@
-Description and examples for /v2/geocode/reverse to follow...
-Reverse geocode an address from a latitude and longitude  
+Example Request:
 
-  * Example:
-    * http://api.gpsinsight.com/v2/geocode/reverse?latitude=X&longitude=X&heading=X
-  * Response:
+https://api.gpsinsight.com/v2/geocode/reverse?session_token=xxxx&latitude=33.333&longitude=-111.111
+
+Example Response:
 
     {
-    head: { ... },
-    data: {
-        country: "USA",
-        speed_limit: 45,
-        speed_limit_unit: "MPH",
-        county: "Maricopa",
-        street_number: "19010",
-        street: "N Scottsdale Rd",
-        city: "Phoenix",
-        us_state: "AZ",
-        zip_code: "85255",
-        meta: {
-            formatted: "19010 N Scottsdale Rd, Phoenix, AZ 85255",
-            road_lanes: "6",
-            road_usage: "Arterial",
-            distance: "52.279258",
-            score: 10
+      head: { .... },
+      data: [
+        {
+          country: "USA",
+          county: "Pinal",
+          street: "Silver King Mine Rd",
+          city: "Superior",
+          us_state: "AZ",
+          zip_code: "85173",
+          heading: "-1",
+          ds: "navteq",
+          meta: {
+            formatted: "Silver King Mine Rd, Superior, AZ 85173",
+road_lanes: "1",
+road_usage: "Local Street",
+distance: "3313.625479",
+score: 8
+}
         }
-    }}
+      ]
+    }
