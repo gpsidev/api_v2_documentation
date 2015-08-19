@@ -1,4 +1,4 @@
-Example Request: https://api.gpsinsight.com/v2/drivergroup/adduser?session_token=xxxx&group=3003862&username=ameyer
+Example Request: https://api.gpsinsight.com/v2/drivergroup/adduser?session_token=xxxx&group=Service&username=ameyer
 
 Example Response:
 
