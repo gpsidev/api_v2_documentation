@@ -1,4 +1,6 @@
-Example Request: https://api.gpsinsight.com/v2/drivergroup/create?session_token=xxxx&group=Service&user=mjones
+Example Request:
+
+https://api.gpsinsight.com/v2/drivergroup/create?session_token=xxxx&group=Service&user=mjones
 
 Example Response:
 
