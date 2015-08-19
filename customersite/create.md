@@ -1,4 +1,6 @@
-Example Request: https://api.gpsinsight.com/v2/customersite/create?session_token=xxxx&name=Garbage%20Trucks
+Example Request:
+
+https://api.gpsinsight.com/v2/customersite/create?session_token=xxxx&name=Garbage%20Trucks
 
 Example Response:
 
