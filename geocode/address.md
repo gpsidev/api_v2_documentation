@@ -4,9 +4,10 @@ https://api.gpsinsight.com/v2/geocode/timezone?session_token=xxxx&address=7201%2
 
 Example Response:
 
-{
-    head: { .... },
-    data: {
+    {
+      head: { .... },
+      data: 
+        {
           latitude: "33.6590744",
           longitude: "-111.9237522",
           address: {
@@ -17,6 +18,6 @@ Example Response:
             postalCode: "85255",    
             country: "US"
           }
-      }
-}
+        }
+    }
 
