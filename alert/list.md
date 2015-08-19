@@ -16,7 +16,7 @@ Example Response:
           instance_description: "SPEEDING ALERT",
           active: 1,
           watcher_type: "speed"
-        }
+        },
         {
           watcher_id: 1102,
           instance_description: "DELIVERY SIGNATURE ALERT",
