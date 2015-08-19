@@ -1,6 +1,6 @@
 Example Request:
 
-https://api.gpsinsight.com/v2/hierarchy/addnode?session_token=xxxx&tree=division&vehicle=CA4531009067
+https://api.gpsinsight.com/v2/hierarchy/removevehicle?session_token=xxxx&tree=division&vehicle=CA4531009067
 
 Example Response:
 
