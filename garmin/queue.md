@@ -1,6 +1,8 @@
 Note: Queued (unsent) dispatch/messages are still on an internal queue to be sent. They have not been received by the destination Garmin.
 
-Example Request: https://api.gpsinsight.com/v2/garmin/queue?session_token=xxxx&vehicle=CA4332083727&group=Garbage%20Trucks
+Example Request:
+
+https://api.gpsinsight.com/v2/garmin/queue?session_token=xxxx&vehicle=CA4332083727&group=Garbage%20Trucks
 
 Example Response:
 
