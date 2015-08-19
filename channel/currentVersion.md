@@ -1,4 +1,6 @@
-Example response:
+Example Request: https://api.gpsinsight.com/v2/channel/currentversion?session_token=xxxx&channel=my_custom_app
+
+Example Response:
 
     {
     head: { ... },
