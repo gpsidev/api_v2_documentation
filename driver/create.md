@@ -1,4 +1,4 @@
-Example Request: https://api.gpsinsight.com/v2/driver/create?session_token=xxxx&lastname=Gypsy&firstname=Tom&email=tomgypsy@xyz.demo&phone=5553839328&alert_pref=3&timezone=US/Arizona
+Example Request: https://api.gpsinsight.com/v2/driver/create?session_token=xxxx&lastname=Gypsy&firstname=Tom&email=tgypsy%40xyz.demo&phone=5553839328&alert_pref=3&timezone=US%3DUS%2FArizona
 
 Example Response:
 
