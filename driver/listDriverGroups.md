@@ -12,6 +12,6 @@ Example Response:
         {
          group_id: 14,
          group: "Delivery"
-        }
+        }, { ... }
       ]
     }
