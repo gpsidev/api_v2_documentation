@@ -1,4 +1,6 @@
-Example Request: https://api.gpsinsight.com/v2/drivergroup/listusers?session_token=xxxx&group=Delivery
+Example Request:
+
+https://api.gpsinsight.com/v2/drivergroup/listusers?session_token=xxxx&group=Delivery
 
 Example Response:
 
@@ -10,6 +12,6 @@ Example Response:
         },
         {
           username: "bbluth"
-        }
+        }, { ... }
       ]
     }
