@@ -1,4 +1,6 @@
-Example Request: https://api.gpsinsight.com/v2/garmin/getreceivedcustomforms?session_token=xxxx&start=20150101
+Example Request:
+
+https://api.gpsinsight.com/v2/garmin/getreceivedcustomforms?session_token=xxxx&start=20150101
 
 Example Response:
 
