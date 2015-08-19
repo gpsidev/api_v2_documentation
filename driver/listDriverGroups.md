@@ -1,4 +1,6 @@
-Example Request: https://api.gpsinsight.com/v2/driver/listdrivergroups?session_token=xxxx&driver=Trent
+Example Request:
+
+https://api.gpsinsight.com/v2/driver/listdrivergroups?session_token=xxxx&driver=Trent
 
 Example Response:
 
