@@ -1,12 +1,15 @@
-Description and examples for /v2/garmin/addMessageToCannedMessageGroup to follow...
-Add a message to a Canned Message group.  When doing this, your message will need to be the same type as the message group.
-  * Example: 
-    * http://api.gpsinsight.com/v2/garmin/addMessageToCannedMessageGroup?&token=authToken&message_id=X&group=X
-  * Response:
+Note: Your message must be the same type as the message group to which you're adding it.
+
+Example Request: https://api.gpsinsight.com/v2/dispatch/addmessagetocannedmessagegroup?session_token=xxxx&group=500233&message_id=501547
+
+Example Response:
 
     {
-    head: { ... },
-    data: [
-    {   result: "Created" 
+      head: { .... },
+      data: [
+        {
+          message_id: "501647",
+          result: "Created"
+        }
+      ]
     }
-    ]}
