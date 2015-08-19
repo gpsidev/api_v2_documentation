@@ -1,4 +1,6 @@
-Example Request: https://api.gpsinsight.com/v2/geocode/timezone?session_token=xxxx&latitude=33.333&longitude=-111.111
+Example Request:
+
+https://api.gpsinsight.com/v2/geocode/timezone?session_token=xxxx&latitude=33.333&longitude=-111.111
 
 Example Response:
 
