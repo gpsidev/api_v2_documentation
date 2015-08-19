@@ -1,4 +1,6 @@
-Example Request: https://api.gpsinsight.com/v2/alert/read?session_token=xxxx&alert=19761
+Example Request:
+
+https://api.gpsinsight.com/v2/alert/read?session_token=xxxx&alert=19761
 
 Example Response: 
 
