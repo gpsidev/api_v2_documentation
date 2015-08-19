@@ -48,40 +48,6 @@ Example Response:
                       value: "6490"
                     }
                   ]
-        },
-        {
-          vehicle: "AL",
-          vin: "CA464116XXXX",
-          serial_number: "464116XXXX",
-          nuvi_serial: "388302XXXX",
-          submit_id: "5",
-          title: "Job log",
-          sent: "4/30/15 1:40:00 PM",
-          received: "04/30/2015 13:41:00",
-          form_id: "90",
-          form_version: "1",
-          form_data: [
-                    {
-                      title: "Keyboard entry",
-                      type: "alphanumeric",
-                      value: "Ruan"
-                    },
-                    {
-                      title: "Customer Stop location",
-                      type: "stop",
-                      value: "Ruan"
-                    },
-                    {
-                      title: "Job start time",
-                      type: "time",
-                      value: "13:40"
-                    },
-                    {
-                      title: "Job end time",
-                      type: "time",
-                      value: "13:40"
-                      }
-                  ]
-        },
+        }
       ]
     }
