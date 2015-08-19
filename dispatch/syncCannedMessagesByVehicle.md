@@ -1,1 +1,10 @@
-Description and examples for /v2/dispatch/syncCannedMessagesByVehicle to follow...
+Example Request: https://api.gpsinsight.com/v2/dispatch/synccannedmessagesbyvehicle?session_token=xxxx
+
+Example Response:
+
+    {
+      head: { .... },
+      data: [
+        [ ]
+      ]
+    }
