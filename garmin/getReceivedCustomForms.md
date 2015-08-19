@@ -1,33 +1,53 @@
-Description and examples for /v2/garmin/getReceivedCustomForms to follow...
-Get Received Custom Forms, with optional filtering parameters. 
-  * Example:
-    * http://api.gpsinsight.com/v2/garmin/getreceivedcustomforms?group=X&vehicle=X&form=X&start=X&end=X
-  * Response:
+Example Request: https://api.gpsinsight.com/v2/garmin/getreceivedcustomforms?session_token=xxxx&start=20150101
+
+Example Response:
 
     {
-    head: { ... },
-    data: [
-    {
-        "vehicle": "Red Car - DG",
-        "vin": "CA4641240198",
-        "title": "Job Form",
-        "form_id": 11,
-        "form_version": 4,
-        "sent": "01/06/2015 15:30:00",
-        "received": "01/06/2015 15:30:00",
-        "submit_id": 1,
-        "form_data": [
+      head: { .... },
+      data: [
         {
-            "title": "Job Type",
-            "value": "Pick Up"
-        },
-        {
-            "title": "Weight of Load",
-            "value": "2410"
-        },
-        {...},
-        {...},
-    ]},
-    {...},
-    {...}
-    ]
+          vehicle: "John GTI",
+          vin: "CA433209XXXX",
+          serial_number: "433209XXXX",
+          nuvi_serial: "389481XXXX",
+          submit_id: "5",
+          title: "Equipment Work Order",
+          sent: "4/30/15 2:50:00 PM",
+          received: "04/30/2015 14:51:00",
+          form_id: "91",
+          form_version: "1",
+          form_data: [
+                    {
+                      title: "Work Order #",
+                      type: "alphanumeric",
+                      value: "4883"
+                    },
+                    {
+                      title: "Equipment Number",
+                      type: "integer",
+                      value: "22856"
+                    },
+                    {
+                      title: "Location of Work Performed",
+                      type: "alphanumeric",
+                      value: "HCA"
+                    },
+                    {
+                      title: "Make",
+                      type: "alphanumeric",
+                      value: "Cat"
+                    },
+                    {
+                      title: "Model",
+                      type: "alphanumeric",
+                      value: "D8R"
+                    },
+                    {
+                      title: "Hour Meter Reading",
+                      type: "integer",
+                      value: "6490"
+                    }
+                  ]
+        }
+      ]
+    }
