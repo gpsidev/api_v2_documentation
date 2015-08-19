@@ -1,12 +1,12 @@
-Description and examples for /v2/garmin/removeCannedMessageGroup to follow...
-Remove a canned message group by group id.
-  * Example: 
-    * http://api.gpsinsight.com/v2/garmin/removeCannedMessageGroup?&token=authToken&group=X
-  * Response:
+Example Request: https://api.gpsinsight.com/v2/garmin/removecannedmessagegroup?session_token=xxxx&group=500233&ignore_dependencies=1
+
+Example Response:
 
     {
-    head: { ... },
-    data: [
-    {   result: "Deleted"
+      head: { .... },
+      data: [
+        {
+          result: "Deleted"
+        }
+      ]
     }
-    ]}
