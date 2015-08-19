@@ -6,13 +6,11 @@ Example Response:
 
     {
       head: { .... },
-      data: [
-        {
+      data: {
           country: "us",
           name: "US/Arizona",
           offset: -25200,
           display_code: "MST",
           display_string: "-0700"
         }
-      ]
     }
