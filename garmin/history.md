@@ -1,17 +1,25 @@
+Example Request: https://api.gpsinsight.com/v2/garmin/history?session_token=xxxx
+
 Example Response:
 
     {
-    head: { ... },
-    data: [
-    {   vehicle: "Test Garmin",
-        serial_number: 2937972834,
-        nuvi_serial: 359234798,
-        username: "tester",
-        type: "Message",
-        message: "Please restock your supplies before you go home",
-        status: "Queued",
-        position: 1,
-        direction: "sent",
-        conversation_id: 1
-    }, { ... }
-    ]}
+      head: { .... },
+      data: [
+        {
+          vin: "CA433208XXXX",
+          vehicle: "Truck 190",
+          queue_id: "5911904",
+          table_id: "5884355",
+          garmin_table: "sent",
+          source: "CA",
+          lmu_serial: "433107XXXX",
+          position: "0",
+          num_tries: "0",
+          message_type: "Message",
+          mesg_text: "Need backup to finish this job. Head this way when you're done with your delivery.",
+          status: "Queued",
+          created_dt: "2015/01/06 21:44:47:000",
+          action: "D"
+        }
+      ]
+    }
