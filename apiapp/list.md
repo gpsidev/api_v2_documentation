@@ -14,6 +14,6 @@ Example Response:
           description: "Testing ESRI Integration",
           username: "apiappuser",
           active: 1
-        }
+        }, { ... }
       ]
     }
