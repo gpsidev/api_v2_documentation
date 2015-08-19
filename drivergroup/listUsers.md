@@ -1,1 +1,15 @@
-Description and examples for /v2/drivergroup/listUsers to follow...
+Example Request: https://api.gpsinsight.com/v2/drivergroup/listusers?session_token=xxxx&group=Delivery
+
+Example Response:
+
+    {
+      head: { .... },
+      data: [
+        {
+          username: "mjones"
+        },
+        {
+          username: "bbluth"
+        }
+      ]
+    }
