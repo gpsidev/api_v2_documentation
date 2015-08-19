@@ -24,6 +24,6 @@ Example Response:
           instance_description: "DELIVERY SIGNATURE ALERT",
           active: 0,
           watcher_type: "fence"
-        }
+        }, { ... }
       ]
     }
