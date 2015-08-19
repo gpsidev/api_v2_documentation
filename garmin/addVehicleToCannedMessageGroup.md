@@ -1,16 +1,13 @@
-Description and examples for /v2/garmin/addVehicleToCannedMessageGroup to follow...
-Add a vehicle to a Canned Message Group.  This can be done by vehicle name, vin, lmu_serial, or nuvi_serial.
+Example Request: https://api.gpsinsight.com/v2/garmin/addvehicletocannedmessagegroup?session_token=xxxx&group=500233&vehicle=CA4332095511
 
-  * Example: 
-    * http://api.gpsinsight.com/v2/garmin/addVehicleToCannedMessageGroup?&token=authToken&group=X&vehicle=x
-    * http://api.gpsinsight.com/v2/garmin/addVehicleToCannedMessageGroup?&token=authToken&group=X&vin=x
-    * http://api.gpsinsight.com/v2/garmin/addVehicleToCannedMessageGroup?&token=authToken&group=X&lmu_serial=x
-    * http://api.gpsinsight.com/v2/garmin/addVehicleToCannedMessageGroup?&token=authToken&group=X&nuvi_serial=x
+Example Response:
 
-  * Response:
     {
-    head: { ... },
-    data: [
-    {   result: "Created" 
+      head: { .... },
+      data: [
+        {
+          id: "CA4332095511",
+          result: "Created"
+        }
+      ]
     }
-    ]}
