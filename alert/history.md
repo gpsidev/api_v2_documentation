@@ -1,4 +1,5 @@
-Example Request: https://api.gpsinsight.com/v2/alert/history?session_token=xxxx&vehicle=CA4531009036&alert=19761&alert_minutes_age=3000
+Example Request:
+https://api.gpsinsight.com/v2/alert/history?session_token=xxxx&vehicle=CA4531009036&alert=19761&alert_minutes_age=3000
 
 Example Response:
 
