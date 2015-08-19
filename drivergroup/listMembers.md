@@ -18,6 +18,6 @@ Example Response:
           lastname: "Gypsy",
           email: "tgypsy@xyz.demo",
           phone: "5553153843"
-        }
+        }, { ... }
       ]
     }
