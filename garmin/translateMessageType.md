@@ -1,1 +1,8 @@
-Description and examples for /v2/garmin/translateMessageType to follow...
+Example Request: https://api.gpsinsight.com/v2/garmin/translatemessagetype?session_token=xxxx
+
+Example Response:
+
+    {
+      head: { .... },
+      data: false
+    }
