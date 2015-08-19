@@ -1,10 +1,12 @@
-Description and examples for /v2/heartbeat/repeat to follow...
-The //repeat// method is the second simplest of messages.  It simply parrots a word back to the user in a formatted response.  Use this to test passing parameters into a method and reading the response.  An authorized session_token is not required.
-  * Example:
-    * http://api.gpsinsight.com/v2/heartbeat/repeat?word=bulbous%20bouffant
-  * Response:
+Note: This simple message parrots a word back to you in a formatted response. Use this method to test passing parameters into a method and reading the response. An authorized session_token is not required.
+
+Example Request:
+
+https://api.gpsinsight.com/v2/heartbeat/repeat?word=bulbous%20bouffant
+
+Example Response:
 
     {
-    head: { ... },
-    data: "bulbous bouffant"
+      head: { .... },
+      data: "bulbous bouffant"
     }
