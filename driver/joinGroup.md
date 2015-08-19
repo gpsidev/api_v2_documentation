@@ -1,1 +1,8 @@
-Description and examples for /v2/driver/joinGroup to follow...
+Example Request: https://api.gpsinsight.com/v2/driver/leavegroup?session_token=xxxx&driver=Tom&group=Delivery
+
+Example Response:
+
+    {
+      head: { .... },
+      data: "Driver added to group"
+    }
