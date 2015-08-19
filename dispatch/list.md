@@ -22,6 +22,6 @@ Example Response:
           vehicle: "Truck 208",
           vin: "CA4641163952",
           vin2: "CA464116XXXX"
-        },
+        }
       ]
     }
