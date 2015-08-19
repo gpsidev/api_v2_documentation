@@ -16,6 +16,6 @@ Example Response:
           type: "C",
           alternate_id: null,
           name: 453100XXXX
-        },
+        }
       ]
     }
