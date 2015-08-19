@@ -1,19 +1,25 @@
-Get a list of all canned messages by message type. 
-  * Example: 
-    * http://api.gpsinsight.com/v2/garmin/listCannedMessages?&token=authToken&message_type=X
-  * Response:
+Example Request: https://api.gpsinsight.com/v2/garmin/listcannedmessages?session_token=xxxx
+
+Example Response:
 
     {
-    head: { ... },
-    data: [
-    {   type: "Message",
-        message: "Test Message2",
-        message_id: 502997,
-        garmin_message_id: 54500,
-        seq: 578,
-        created: "6/24/14 8:30:30 AM" 
-    }, 
-    {...},
-    {...}
-    ]}
-    
+      head: { .... },
+      data: [
+        {
+          type: "Status",
+          message: "Start of Day",
+          message_id: "294",
+          garmin_message_id: "100",
+          seq: "1",
+          created: "5/26/11 9:40:45 AM"
+        },
+        {
+          type: "Message",
+          message: "Off Duty",
+          message_id: "501517",
+          garmin_message_id: "513",
+          seq: "19",
+          created: "6/23/13 5:32:14 PM"
+        }
+      ]
+    }
