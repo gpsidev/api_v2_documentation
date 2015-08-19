@@ -1,4 +1,6 @@
-Example Request: https://api.gpsinsight.com/v2/driver/getattributes?session_token=xxxx&driver=4551485
+Example Request:
+
+https://api.gpsinsight.com/v2/driver/getattributes?session_token=xxxx&driver=4551485
 
 Example Response:
 
