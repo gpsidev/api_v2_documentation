@@ -1,4 +1,6 @@
-Example Request: https://api.gpsinsight.com/v2/dispatch/history?session_token=xxxx
+Example Request:
+
+https://api.gpsinsight.com/v2/dispatch/history?session_token=xxxx
 
 Example Response:
 
