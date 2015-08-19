@@ -26,6 +26,6 @@ Example Response:
           account_id: 90054,
           vehicle: "Truck 150",
           vin: "CA453100XXXX"
-        },
+        }
       ]
     }
