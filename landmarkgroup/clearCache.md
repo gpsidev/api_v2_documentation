@@ -1,1 +1,5 @@
-Description and examples for /v2/landmarkgroup/clearCache to follow...
+Example Request:
+
+https://api.gpsinsight.com/v2/landmark/clearcache?session_token=xxxx
+
+Example Response: None
