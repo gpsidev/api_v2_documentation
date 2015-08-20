@@ -1,6 +1,6 @@
 Example Request:
 
-https://api.gpsinsight.com/v2/vin/decode?session_token=xxxx&vin=1N4AL21E67N487368
+https://api.gpsinsight.com/v2/vin/decode?session_token=xxxx&vin=1N4AL21E67N48XXXX
 
 Example Response:
 
