@@ -9,7 +9,7 @@ Example Response:
       data: [
         {
           id: "CA4531009036",
-          label: "Kristin PNP-3000V",
+          label: "Truck 129",
           attribute: {
             Color of Vehicle: "green"
           },
