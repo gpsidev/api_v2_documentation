@@ -1,1 +1,10 @@
-Description and examples for /v2/hierarchynode/addDriver to follow...
+Example Request:
+
+https://api.gpsinsight.com/v2/hierarchy/addnode?session_token=xxxx&tree=Division&node=Scottsdale&driver=Tom
+
+Example Response:
+
+    {
+      head: { .... },
+      data: "Driver added to node"
+    }
