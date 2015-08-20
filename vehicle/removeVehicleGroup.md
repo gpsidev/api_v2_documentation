@@ -1,1 +1,10 @@
-Description and examples for /v2/vehicle/removeVehicleGroup to follow...
+Example Request:
+
+https://api.gpsinsight.com/v2/vehicle/removevehiclegroup/?session_token=xxxx&vehicle=CA4531009036&groups=delivery,service
+
+Example Response:
+
+    {
+      head: { .... },
+      data: "Success"
+    }
