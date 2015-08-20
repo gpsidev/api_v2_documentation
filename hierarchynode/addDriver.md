@@ -2,7 +2,7 @@ Note: If the driver is already assigned to another node in this hierarchy tree, 
 
 Example Request:
 
-https://api.gpsinsight.com/v2/hierarchy/adddriver?session_token=xxxx&tree=Division&node=Scottsdale&driver=Tom
+https://api.gpsinsight.com/v2/hierarchynode/adddriver?session_token=xxxx&tree=Division&node=Scottsdale&driver=Tom
 
 Example Response:
 
