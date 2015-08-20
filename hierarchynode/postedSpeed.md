@@ -22,6 +22,9 @@ Example Response:
           inst_speed: 55,
           speed_limit: 45,
           odometer: 7187.3,
+          driver_id: 4549XXX,
+          first_name: "Jennifer",
+          last_name: "Meyers",
           percent_over: 20,
           violation: 10
         }, { ... }
