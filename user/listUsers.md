@@ -1,6 +1,6 @@
 Example Request:
 
-https://api.gpsinsight.com/v2/driver/listusers?session_token=xxxx
+https://api.gpsinsight.com/v2/user/listusers?session_token=xxxx
 
 Example Response:
 
