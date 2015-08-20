@@ -1,6 +1,6 @@
 Example Request:
 
-https://api.gpsinsight.com/v2/hierarchy/addnode?session_token=xxxx&tree=Division&node=Scottsdale&driver=Tom
+https://api.gpsinsight.com/v2/hierarchy/adddriver?session_token=xxxx&tree=Division&node=Scottsdale&driver=Tom
 
 Example Response:
 
