@@ -1,1 +1,15 @@
-Description and examples for /v2/landmarkgroup/listGroupsAndLandmarkIds to follow...
+Example Request:
+
+https://api.gpsinsight.com/v2/landmarkgroup/listgroupsandlandmarkids?session_token=xxxx
+
+Example Response:
+
+    {
+      head: { .... },
+      data: [
+        {
+          landmarkGroupId: 17112,
+          landmarkId: 671866
+        }, { ... }
+      ]
+    }
