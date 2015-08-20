@@ -1,6 +1,6 @@
 Example Request:
 
-https://api.gpsinsight.com/v2/hierarchynode/postedspeed?session_token=xxxx&tree=Division&node=Scottsdale&start=08/01/201522:15:47
+https://api.gpsinsight.com/v2/hierarchynode/postedspeed?session_token=xxxx&tree=Division&node=Scottsdale&start=08/01/2015
 
 Example Response:
 
