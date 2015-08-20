@@ -1,6 +1,6 @@
 Example Request:
 
-https://api.gpsinsight.com/v2/hierarchynode/beginendday?session_token=xxxx&tree=Division&node=Scottsdale&start=08/01/2015&end=08/02/2015
+https://api.gpsinsight.com/v2/hierarchynode/beginendday?session_token=xxxx&tree=Division&node=Scottsdale&start=08/01/2015+12:00:00&end=08/02/2015
 
 Example Response:
 
