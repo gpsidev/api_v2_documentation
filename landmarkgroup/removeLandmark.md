@@ -1,1 +1,10 @@
-Description and examples for /v2/landmarkgroup/removeLandmark to follow...
+Example Request:
+
+https://api.gpsinsight.com/v2/landmarkgroup/removelandmark?session_token=xxxx&landmark=Dispatch%20Center%20D&group=Dispatch%20Centers
+
+Example Response:
+
+    {
+      head: { .... },
+      data: "Removed from landmark group"
+    }
