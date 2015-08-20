@@ -27,6 +27,6 @@ Example Response:
           idle_gal: 0.013699863,
           idle_gph: 0.411,
           sec_duration: 120
-        }, { ... }
+        }
       ]
     }
