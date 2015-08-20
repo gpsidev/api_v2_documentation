@@ -1,1 +1,10 @@
-Description and examples for /v2/userauth/logout to follow...
+Example Request:
+
+https://api.gpsinsight.com/v2/userauth/logout?session_token=XXXX
+
+Example Response:
+
+    {
+      head: { .... },
+      data: "logged out"
+    }
