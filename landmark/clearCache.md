@@ -1,1 +1,10 @@
-Description and examples for /v2/landmark/clearCache to follow...
+Example Request:
+
+https://api.gpsinsight.com/v2/landmark/clearcache?session_token=xxxx
+
+Example Response:
+
+    {
+      head: { .... },
+      data: "Cache cleared"
+    }
