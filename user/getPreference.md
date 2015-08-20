@@ -1,1 +1,15 @@
-Description and examples for /v2/user/getPreference to follow...
+Example Request:
+
+https://api.gpsinsight.com/v2/user/getpreference?session_token=xxxx&accountlevel=1
+
+Example Response:
+
+    {
+      head: { .... },
+      data: [
+        {
+          preference: "default_vehicle_group_id",
+          value: "3838"
+        }
+      ]
+    }
