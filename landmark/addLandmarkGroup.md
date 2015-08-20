@@ -9,4 +9,4 @@ Example Response:
       data: "Added to Dispatch Centers"
     }
 
-Note: The response lists the name of the landmark group listed in the request.
+Note: The response lists the name of the landmark group passed in the request.
