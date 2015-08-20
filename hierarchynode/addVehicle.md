@@ -2,7 +2,7 @@ Note: If the vehicle is already assigned to another node in this hierarchy tree,
 
 Example Request:
 
-https://api.gpsinsight.com/v2/hierarchy/addvehicle?session_token=xxxx&tree=Division&node=Scottsdale&vehicle=Truck150
+https://api.gpsinsight.com/v2/hierarchynode/addvehicle?session_token=xxxx&tree=Division&node=Scottsdale&vehicle=Truck150
 
 Example Response:
 
