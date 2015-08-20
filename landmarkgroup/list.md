@@ -1,6 +1,6 @@
 Example Request:
 
-https://api.gpsinsight.com/v2/landmarkgrouop/list?session_token=xxxx
+https://api.gpsinsight.com/v2/landmarkgroup/list?session_token=xxxx
 
 Example Response:
 
