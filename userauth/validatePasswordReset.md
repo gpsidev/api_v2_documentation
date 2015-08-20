@@ -1,1 +1,10 @@
-Description and examples for /v2/userauth/validatePasswordReset to follow...
+Example Request:
+
+https://api.gpsinsight.com/v2/userauth/validatepasswordreset?session_token=xxxx&username=tgypsy&confirmation=166418
+
+Example Response:
+
+    {
+      head: { .... },
+      data: "OK"
+    }
