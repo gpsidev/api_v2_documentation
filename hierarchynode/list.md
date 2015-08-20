@@ -6,7 +6,7 @@ Example Response:
 
     {
       head: { .... },
-      data: [
+      data: 
         {
           13: {
             id: 13,
@@ -16,5 +16,4 @@ Example Response:
             ]
           }
         }, { ... }
-      ]
     }
