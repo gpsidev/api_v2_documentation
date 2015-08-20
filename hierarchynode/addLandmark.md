@@ -2,7 +2,7 @@ Note: If the landmark is already assigned to another node in this hierarchy tree
 
 Example Request:
 
-https://api.gpsinsight.com/v2/hierarchy/addlandmark?session_token=xxxx&tree=Division&node=Scottsdale&landmark=Scottsdale%20Municipal%20Airport
+https://api.gpsinsight.com/v2/hierarchynode/addlandmark?session_token=xxxx&tree=Division&node=Scottsdale&landmark=Scottsdale%20Municipal%20Airport
 
 Example Response:
 
