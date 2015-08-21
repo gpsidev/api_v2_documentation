@@ -1,1 +1,10 @@
-Description and examples for /v2/vehiclegroup/removeUser to follow...
+Example Request:
+
+https://api.gpsinsight.com/v2/vehiclegroup/removeuser?session_token=xxxx&username=mjones&vehicle_group=Backhoes
+
+Example Response:
+
+    {
+      head: { .... },
+      data: "Success"
+    }
