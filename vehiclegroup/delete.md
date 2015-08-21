@@ -1,1 +1,10 @@
-Description and examples for /v2/vehiclegroup/delete to follow...
+Example Request:
+
+https://api.gpsinsight.com/v2/vehicle/delete?session_token=xxxx&vehicle_group=west
+
+Example Response:
+
+    {
+      head: { .... },
+      data: "Success"
+    }
