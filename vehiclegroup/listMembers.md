@@ -8,10 +8,9 @@ Example Response:
       head: { .... },
       data: [
         {
-          id: "CA454204XXXX",
-          vin: "1G1JC52462745XXXX",
-          label: "Truck 130",
-          serial_number: 454204XXXX
+          id: "CA4641163XXX",
+          vin: "CA4641163XXX",
+          label: "Truck 205"
         }, { ... }
       ]
     }
