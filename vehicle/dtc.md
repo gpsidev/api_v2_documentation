@@ -16,22 +16,18 @@ Example Response:
           last_name: "Johnson",
           ref_id: "JaJ",
           dtc: {
-            P0491: {
-              mld: "Secondary Air Injection System (Bank 1)",
-              alt: " ",
-              last: 1438476844,
-              first: 1438436449,
-              last_odo: -1,
-              first_odo: -1,
-              count: 5
+            P0345: {
+                mld: "Camshaft Position Sensor B - Bank 1 Circuit Malfunction",
+                alt: "Engine may not be consuming fuel efficiently",
+                last: "2015-09-29T12:29:32-07:00",
+                first: "2015-09-23T17:58:36-07:00",
+                count: 17
             },
-            P0492: {
-              mld: "Secondary Air Injection System (Bank 2)",
-              alt: " ",
-              last: 1438476844,
-              first: 1438436449,
-              last_odo: -1,
-              first_odo: -1,
+            P0349: {
+              mld: "Camshaft Position Sensor A Circuit Intermittent (Bank 2)",
+              alt: "Vehicle is reporting a potential powertrain sensor malfunction",
+              last: 2015-09-29T12:29:32-07:00,
+              first: 2015-09-23T17:58:36-07:00,
               count: 5
             }
           }
