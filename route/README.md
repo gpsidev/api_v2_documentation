@@ -35,4 +35,42 @@ making the full url look something like
 
 The route optimizer with keep the first location and last location in the same position, and optimize the stops in between.
 
+Here is the example return value of the `optimize call`
 
+	{
+	    "head": {
+		"status": "OK",
+		"method": "optimize",
+		"context": "customer",
+		"request_time": "Mar 17 2016 12:41:13",
+		"session_start": "Mar 17 2016 12:40:41",
+		"request_count": 36,
+		"request_ip": "12.39.158.227",
+		"timer": 0.2091
+	    },
+	    "data": [
+		{
+		    "address": "1313 Disneyland Dr, Anaheim, CA 92802",
+		    "name": "1313 Disneyland Drive, Anaheim, California 92802",
+		    "lat": 33.8153022,
+		    "lng": -117.9261865
+		},
+		{
+		    "name": "test 1",
+		    "lat": 33.6590744,
+		    "lng": -111.9237522
+		},
+		{
+		    "landmark_id": 810763,
+		    "name": "Test Landmark",
+		    "lat": 33.455505,
+		    "lng": -111.7620278
+		},
+		{
+		    "address": "2200 West Coast Hwy, Newport Beach, CA 92663",
+		    "name": "2200 West Coast Highway, Newport Beach, California 92663",
+		    "lat": 33.6186738,
+		    "lng": -117.9196782
+		}
+	    ]
+	}
