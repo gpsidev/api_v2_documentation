@@ -1,5 +1,3 @@
-## Route
-
 The `route` endpoint allows users to do route processing.
 
 There is a special route format used in the calls. It is a json string that defines the route.
