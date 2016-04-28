@@ -1,4 +1,3 @@
-
 Example request:
 
 https://api.gpsinsight.com/v2/vehicle/location?session_token=xxxx&vehicle=CA4531009XXX
