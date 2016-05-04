@@ -1,5 +1,3 @@
-## ApiApp
-
 The `apiapp` endpoint allows users to define an alternate authentication mechanism.
 
 The App token interface is used primarily for integrations you hand off to another team or 3rd party developer, where you’d rather give them a revokable token for authentication rather than sending your password with the request.  
