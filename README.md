@@ -8,7 +8,7 @@
 </div>
 
 <div class="Getting Started page-header">
-    <h3 style="margin-left: 265px">Getting Started</h3>
+    <h3 style="align-content: center">Getting Started</h3>
     <p>An application programming interface (API) specifies how some software components should interact with each other. GPS Insight's API provides a form of communication via XML or JSON coding language to push your fleet’s data from our system to your back-end systems (e.g., ERP, Dispatch, CRM). By using our API you can effortlessly integrate your fleet’s data into your back-end systems to provide transparency into payroll, fuel card transactions, additional documentation, asset management, and more.</p>
     <img src="/apidocs/images/API_process.png">
     <p>The typical process for interacting with our API is broken into three high-level steps. You'll need to: <br>
@@ -32,7 +32,7 @@
 
 <div class="row marketing">
     <ul>
-        <h3 id="SessionToken" style="margin-bottom: 10px; margin-left: 150px">   Obtain a Session Token</h3>
+        <h3 id="SessionToken" style="margin-bottom: 10px;">   Obtain a Session Token</h3>
         <p>
             In order to interact with the API, you must obtain a session token. You can obtain a session token through authentication, which can be done in two ways:
         <ul>
@@ -135,7 +135,7 @@
         </div>
 
 
-        <h3 id="Request" style="margin-bottom: 10px; margin-top: 15px; margin-left: 195px">   Make a Request</h3>
+        <h3 id="Request" style="margin-bottom: 10px; margin-top: 15px;">   Make a Request</h3>
         <p>
             Technically, you've already made a request (authentication) that returned a session token. Now, you can make additional requests--this time to return data from your GPS Insight account.<br><br>
             <strong>Request Structure</strong><br>
@@ -197,7 +197,7 @@
         </div>
         <p><div class="alert alert-danger" role="alert"><strong>Note:</strong> You can also add an optional, user-specified value that is returned in the response header (128 character max) to use for troubleshooting (i.e., reference_tag=request_00342), but it is not a core element of the request structure.</div>
         </p>
-        <h3 id="ProcessResponse" style="margin-bottom: 10px; margin-top: 15px; margin-left: 195px">   Process a Response</h3>
+        <h3 id="ProcessResponse" style="margin-bottom: 10px; margin-top: 15px;">   Process a Response</h3>
 
         <p><strong>Response Structure</strong><br>The default response will be structured with a head section with meta data about the request, an optional errors section, and a data section containing the formatted response data:</p>
         <div class="well well-sm">{<br>
@@ -271,7 +271,7 @@
 
             </table>
             <div class="map">
-                <h3 class="fa fa-globe fa-2x" style="margin-bottom: 10px; margin-top: 15px; margin-left: 150px;"> Real-World Example</h3>
+                <h3 class="fa fa-globe fa-2x" style="margin-bottom: 10px; margin-top: 15px;"> Real-World Example</h3>
                 <p>
                     How you process the response depends entirely on your purpose for using the API and the programming language in which the interfacing
                     application is written. GPS Insight provides you with the following simple JavaScript example for how you might use the GPS Insight
