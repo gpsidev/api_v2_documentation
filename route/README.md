@@ -31,7 +31,9 @@ making the full url look something like
 
     https://api.gpsinsight.com/v2/route/optimize?route_json=%7B%22stops%22%3A%5B%7B%22address%22%3A%221313%20Disneyland%20Dr%2C%20Anaheim%2C%20CA%2092802%22%7D%2C%7B%22landmark_id%22%3A810763%7D%2C%7B%22name%22%3A%22test%201%22%2C%22lat%22%3A33.6590744%2C%22lng%22%3A-111.9237522%7D%2C%7B%22address%22%3A%22--this%20is%20an%20invalid%20address--%22%7D%2C%7B%22address%22%3A%222200%20West%20Coast%20Hwy%2C%20Newport%20Beach%2C%20CA%2092663%22%7D%5D%7D&token=YOUR_TOKEN
 
-The route optimizer with keep the first location and last location in the same position, and optimize the stops in between.
+The route optimizer with keep the first location and last location in the same position, and optimize the stops in between.  
+
+Also note that arbitrary keys can be added to a stop and will be returned back out when the route is optimized. For example, you can add a "po_number" key (or any custom key name) to each stop when optimizing, and you will get the same "po_number" back with each stop. You can also make an optimize request with duplicate addresses as long as each stop has at least one additional key that is unique. For example, If you use "po_number" as a custom key, make sure each stop has a unique "po_number", even if stops share the same address.
 
 Here is the example return value of the `optimize` call
 
