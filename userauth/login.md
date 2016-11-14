@@ -1,4 +1,4 @@
-Example Request(s):
+Example Request:
 
 https://api.gpsinsight.com/v2/userauth/login?username=XXXX&password=XXXX
 https://api.gpsinsight.com/v2/userauth/login?username=XXXX&app_token=XXXXXXXXX
