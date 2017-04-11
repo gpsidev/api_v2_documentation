@@ -4,7 +4,6 @@
         <img src="/apidocs/images/gpsi_logo_flat.png" alt=""/><br>
         Welcome to the GPS Insight API Guide for Developers! This documentation is designed for people familiar with object-oriented programming concepts. You should also be familiar with GPS Insight capabilities from a user's point of view.
     </p>
-    <p><a class="btn btn-danger btn-md" ng-href="#/">Get Started!<span class="glyphicon glyphicon-ok"></span></a></p>
 </div>
 
 <div class="Getting Started page-header">
