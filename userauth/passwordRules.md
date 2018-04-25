@@ -2,6 +2,8 @@ Example Request:
 
 https://api.gpsinsight.com/v2/userauth/passwordrules?session_token=xxxx
 
+Example Response:
+
     {
     "head": { ... },
     "data": {
