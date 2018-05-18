@@ -1,3 +1,10 @@
+Trip Types:
+
+In the response there is a trip_type field with the following codes:
+ * T - Trip measured from ignition-on to idle-start or ignition-off, or idle-stop to idle-start to ignition-off
+ * I - Idle measured as ignition-on and zero-speed
+ * S - Stop measured as ignition-off
+ 
 Example Request:
 
 https://api.gpsinsight.com/v2/vehicle/tripdetail?session_token=xxxx&vehicle=CA4531009XXX&date=8/1/2015
