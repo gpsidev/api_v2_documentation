@@ -1,6 +1,6 @@
 Example Request:
 
-https://api.gpsinsight.com/v2/channel/setcurrentversion?session_token=xxxx&channel=my_custom_app&date=20150727.
+https://api.gpsinsight.com/v2/channel/setcurrentversion?session_token=xxxx&channel=my_custom_app&date=7/27/2015.
 
 Example Response:
 
