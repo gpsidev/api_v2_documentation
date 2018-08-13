@@ -36,6 +36,7 @@ Example Response:
             driver_id: "1",
             first_name: "Dwight",
             last_name: "Eisenhower",
-            phone_number: "4806639454"
+            phone_number: "4806639454",
+			inputs: { "Seatbelt": "Buckled" }
           }
     ]}
