@@ -1,6 +1,6 @@
 Example Request:
 
-https://api.gpsinsight.com/v2/attribute/list?page=1&page_size=1&session_token=your_token
+https://api.gpsinsight.com/v2/attribute/list?page=1&page_size=3&sort=-ca_name,vehicles&session_token=your_token
 
 Example Response:
 
@@ -15,18 +15,22 @@ Example Response:
         },
         data: [
           {
-            "ca_id": 1500383,
-            "ca_name": "Boom Height",
-            "vehicles": true,
-            "landmarks": true
-          },
-          {
             "ca_id": 1500384,
             "ca_name": "Email Distributions",
             "users": true,
-            "drivers": true,
+             "vehicles": true,
+             "drivers": true,
+             "landmarks": true,
+              "hierarchy": false
+          },
+          {
+            "ca_id": 1500383,
+            "ca_name": "Boom Height",
+            "users": false,
             "vehicles": true,
-            "landmarks": true
+            "drivers": false,
+            "landmarks": true,
+            "hierarchy": false
           }, { ... }
          ]
       }
