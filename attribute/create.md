@@ -6,12 +6,12 @@ https://api.gpsinsight.com/v2/attribute/create?session_token=your_token
 {
 	"attribute" : {
 		"ca_name": "Test",
-		"allow_multiple": false,
+		"allow_multiple": 0,
 		"values": [1,3,4,5],
 		"types": [1,8],
 		"value_type_id": 3,
-		"visible_to_use": true,
-		"visible_to_edit": true
+		"visible_to_use": 1,
+		"visible_to_edit": 1
 	}
 }
 ```

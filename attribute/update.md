@@ -6,12 +6,12 @@ https://api.gpsinsight.com/v2/attribute/update?attr_id=1500409&session_token=you
 {
 	"attribute" : {
 		"ca_name": "Test1",
-		"allow_multiple": false,
+		"allow_multiple": 0,
 		"values": [1,3,4],
 		"types": [1,8],
 		"value_type_id": 3,
-		"visible_to_use": true,
-		"visible_to_edit": true
+		"visible_to_use": 1,
+		"visible_to_edit": 1
 	}
 }
 ```
@@ -38,18 +38,3 @@ Example Success Response:
 }
 ```
 
-
-Example Error Response:
-
-```json 
-{
-    "head": {...},
-    "data": {
-        "success": 0,
-        "errors": {
-            "allow_multiple": "allow_multiple should be set",
-            "ca_name": "type of ca_name should be string"
-        }
-    }
-}
-```
