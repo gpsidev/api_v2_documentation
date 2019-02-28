@@ -45,7 +45,7 @@
             <br>
         </ul>
         <div class="alert alert-danger" role="alert"><strong>Note:</strong> The App Token is not less sensitive than a password because it still provides full access to API functions for that user. Using an API App offers the following benefits: It does not allow access to the Portal site, it can be changed or deactivated by admin users, and app usage can be better tracked.</div>
-        Once you have a session token, all subsequent requests will not require authentication while the session token is active. The token will eventually expire It will eventually expire (varies from about a day to a week), so you will need to occasionally re-authenticate.
+        Once you have a session token, all subsequent requests will not require authentication while the session token is active. The token will eventually expire (varies from about a day to a week), so you will need to occasionally re-authenticate.
         </p>
 
         <div>
