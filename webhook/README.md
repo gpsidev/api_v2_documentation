@@ -1,7 +1,7 @@
 The `webhook` endpoint allows users to define and manage webhooks. There is also a web interface for this. 
 On the Portal main menu, go to Account->Manage Webhooks.
 
-#### Push vs. Pull
+### Push vs. Pull
 Webhooks allow us to push data to your servers as soon as we collect it (PUSH), 
 instead of you periodically requesting data from our API (PULL).
 You will specify a public endpoint on one of your web servers, and we will post data to it securely. 
@@ -19,7 +19,7 @@ and we will re-queue the message for delivery.
 
 You can use the API's `/webhook/list` function to see all your queues, their status and their queue depth.
 
-#### Queue Pausing
+### Queue Pausing
 With multiple customers using webhooks, we cannot queue points indefinitely, 
 so we will pause your queue when the queue depth reaches **5000 points**.
 This is usually an indication of a persistent problem on your side, 
@@ -32,7 +32,7 @@ If you are consuming the `Location` webhook,
 and you feel it's important to recover data from a period of time your queue was paused,
 you can use the api's `/vehicle/history` function with a specific time period to receive the same points.
 
-#### Recommended Setup
+### Recommended Setup
 Consuming a `Location` webhook can sometimes be like drinking from a firehose. 
 There is the potential for **a lot** of data to be coming at you very quickly. 
 It is important that you are set up to receive and persist that data as quickly as possible.

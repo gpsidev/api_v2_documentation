@@ -1,6 +1,6 @@
 Example Request:
 
-https://api.gpsinsight.com/v2/geocode/timezone?session_token=xxxx&address=7201%20E%20Henkel%20Way
+https://api.gpsinsight.com/v2/geocode/address?session_token=xxxx&address=7201%20E%20Henkel%20Way
 
 Example Response:
 
