@@ -22,7 +22,7 @@ Example Response:
           last_name: "Gypsy",
           trip_start_adj: "Jul 15 2015 16:43:02",
           trip_end_adj: "Jul 15 2015 16:45:02",
-          GHG: "0.0001206820931670",
+          GHG: "0.000120682093",
           co2_rate: 0.008809,
           idle_gal: 0.013699863,
           idle_gph: 0.411,
