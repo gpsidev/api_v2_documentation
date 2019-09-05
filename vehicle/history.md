@@ -1,7 +1,5 @@
 Example Request:
 
-Full day of history for a vehicle.
-
 https://api.gpsinsight.com/v2/vehicle/idledetail?session_token=xxxx&vehicle=CA4531009XXX&date=8/1/2015
 
 Example Response:
@@ -34,8 +32,6 @@ Example Response:
     }
     
 Example Request:
-
-Partial day of history for a vehicle.
 
 https://api.gpsinsight.com/v2/vehicle/history?session_token=xxxx&vehicle=CA4531009XXX&start=8/1/2015%2007:15:00&end=8/1/2015%2007:30:00  
 
@@ -80,8 +76,6 @@ Example Response:
     }
 
 Example Request:
-
-Include input data in vehicle history.
 
 https://api.gpsinsight.com/v2/vehicle/history?session_token=xxxx&vehicle=CA4531009XXX&date=8/1/2015&inputs=true
 
