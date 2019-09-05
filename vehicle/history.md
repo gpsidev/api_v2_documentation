@@ -1,4 +1,4 @@
-Example Request (full day of history):
+Example Request:
 
 https://api.gpsinsight.com/v2/vehicle/history?session_token=xxxx&vehicle=CA4531009XXX&date=8/1/2015
 
