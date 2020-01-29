@@ -268,7 +268,7 @@
                 <img src="/apidocs/images/real_example.png">
             </p>
         </div>
-        <div><h3>IP Whitelist</h3></div>
+        <div><h2>IP Whitelist</h2></div>
         <div>
             <p>Due to how frequently the IPs will change our Cloud-Hosted environment, it is not recommended that users whitelist IPs for API purposes.             
             Generally, it will be difficult to keep up with the changing addresses. If you want to try, here is some <a href="https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html">documentation from AWS about how to stay up to date on the IP addresses.</a>
