@@ -1,6 +1,6 @@
 Example Request:
 
-https://api.gpsinsight.com/v2/hierarchy/listNodes?session_token=xxxxx&type=V&tree=Company%20Vehicles
+https://api.gpsinsight.com/v2/hierarchy/listNodes?session_token=xxxxx&type=V&tree=division
 
 Example Response:
 
