@@ -1,6 +1,6 @@
 Example Request:
 
-https://api.gpsinsight.com/v2/hierarchy/serviceReminder?session_token=xxxx&tree=division&date=03/18/2021
+https://api.gpsinsight.com/v2/hierarchy/serviceReminder?session_token=xxxx&tree=division
 
 Example Response:
 
