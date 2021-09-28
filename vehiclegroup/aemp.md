@@ -2,13 +2,6 @@ Example Request:
 
 https://api.gpsinsight.com/v2/vehiclegroup/aemp?session_token=xxxx&vehicle=Truck240&vehicle_group=Delivery
 
-This data adheres to the AEMP standard for formatting telematics data. 
-See http://docplayer.net/47523189-Aemp-telematics-data-standard-v1-0.html. 
-This standard is often used by OEMs of heavy machinery. 
-This endpoint will return data from all tracking devices in the AEMP format, not just OEM data.
-NOTE - Because AEMP is a specific XML format, you cannot override the output formatting with a formatting qualifier
-such as `/v2/vehiclegroup/aemp/json`. 
-
 Example Response:
 
     <?xml version="1.0"?>
