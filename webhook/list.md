@@ -10,7 +10,7 @@ Example Response:
         {
           name: "driver_assign_alert",
           email: "xyzdev@xyzcompany.demo",
-          url: "http://xyzdev.com/server/callback_vehicle.php",
+          url: "https://xyzdev.com/server/callback_vehicle.php",
           socket_id: "",
           filter: "",
           type: "driver_assignment",
