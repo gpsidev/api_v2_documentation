@@ -80,7 +80,7 @@
             <tr class="hiddenRow">
                 <td>
                     <ol>
-                        <li value="1">Open a web browser, and log in to <a href="http://portal.gpsinsight.com/" target="_blank">portal.gpsinsight.com</a>.</li>
+                        <li value="1">Open a web browser, and log in to <a href="https://portal.gpsinsight.com/" target="_blank">portal.gpsinsight.com</a>.</li>
                         <li value="2">From the Menu&#160;Bar, hover over the <b>Account</b> menu, point to <b>Manage Users</b>, and click <b>Manage&#160;access to api V2 functions</b>.</li>
                     </ol><br>
                     <p class="listcontinue" style="text-indent: 39px">The Manage API Apps page appears.</p>
