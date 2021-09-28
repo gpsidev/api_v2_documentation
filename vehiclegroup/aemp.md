@@ -10,6 +10,7 @@ NOTE - Because AEMP is a specific XML format, you cannot override the output for
 such as `/v2/vehiclegroup/aemp/json`. 
 
 Example Response:
+
     <?xml version="1.0"?>
     <Fleet version="1.2" snapshotTime="2021-09-28T17:50:35+00:00" xmlns="http://schemas.aemp.org/fleet">
         <Equipment>
