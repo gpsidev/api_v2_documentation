@@ -1,6 +1,6 @@
 Example Request:
 
-https://api.gpsinsight.com/v2/vehiclereport/atlandmarksummary?session_token=xxxx&landmark_group=21771&group=3838&radius=8800&rows=2
+https://api.gpsinsight.com/v2/landmarkreport/closesttolandmark?session_token=xxxx&landmark_group=21771&group=3838&radius=8800&rows=2
 
 Example Response:
 
