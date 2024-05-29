@@ -14,9 +14,7 @@ Then, use the `addVehicle` endpoint to add the vehicle group to the Customer Sit
 ### Map Link
 To view your Customer Sites map, use this URL pattern with your Customer Sites ID as the `key` parameter:
 
-```
-https://portal.gpsinsight.com/d/publicmap.php?key=gpsi0000000000000&follow=true
-```
+    https://portal.gpsinsight.com/d/publicmap.php?key=gpsi0000000000000&follow=true
 
 The following are map options you can use by appending them to the URL as query parameters, such as `&follow=true` in the example above:
 
@@ -33,11 +31,9 @@ You can link directly to this URL for a full-screen view of the map, use that sa
 ### Embedding the Map
 Alternately, you can use embed code pattern, with your Customer Sites ID as the `data-key` parameter, to embed the map right into your HTML. 
 
-```html    
-<!doctype html>
-<div data-api-host="api.gpsinsight.com" data-trail-minutes="60" data-list-closed="false" data-trails="false" data-url-base="https://portal.gpsinsight.com" data-key="gpsi0000000000000" style="width:800px;height:600px;" id="cust-site-map-canvas" data-google-api-key=""></div>
-<img src="https://portal.gpsinsight.com/common/images/map/loader.png" onload="var custSiteScript = document.createElement('script'); var custSiteNoCache = (new Date()).getTime(); custSiteScript.src = 'https://portal.gpsinsight.com/common/js/user/customersites.js?v=' + custSiteNoCache; document.body.appendChild(custSiteScript)" id="cust-site-script-img">
-```
+    <!doctype html>
+    <div data-api-host="api.gpsinsight.com" data-trail-minutes="60" data-list-closed="false" data-trails="false" data-url-base="https://portal.gpsinsight.com" data-key="gpsi0000000000000" style="width:800px;height:600px;" id="cust-site-map-canvas" data-google-api-key=""></div>
+    <img src="https://portal.gpsinsight.com/common/images/map/loader.png" onload="var custSiteScript = document.createElement('script'); var custSiteNoCache = (new Date()).getTime(); custSiteScript.src = 'https://portal.gpsinsight.com/common/js/user/customersites.js?v=' + custSiteNoCache; document.body.appendChild(custSiteScript)" id="cust-site-script-img">
 
 The following are map options you can use by adding key/value pairs to the embed code, such as `data-trails="false"` in the example above:
 
