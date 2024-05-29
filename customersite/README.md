@@ -11,10 +11,12 @@ Once you have created a Customer Site, you can add vehicles to it by vehicle gro
 create a vehicle group and assign the vehicles you want to share to that group. 
 Then, use the `addVehicle` endpoint to add the vehicle group to the Customer Site.
 
-### Map Link and Options
+### Map Link
 To view your Customer Sites map, use this URL pattern with your Customer Sites ID as the `key` parameter:
 
-```https://portal.gpsinsight.com/d/publicmap.php?key=gpsi0000000000000&follow=true```
+```
+https://portal.gpsinsight.com/d/publicmap.php?key=gpsi0000000000000&follow=true
+```
 
 The following are map options you can use by appending them to the URL as query parameters, such as `&follow=true` in the example above:
 
