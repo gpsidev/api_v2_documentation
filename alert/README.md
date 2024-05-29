@@ -18,10 +18,36 @@ For example, the`Ignition` alert will notify users when a vehicle starts or stop
 The two endpoints for the ignition alert are `createIgnition` and `updateIgnition`.
 Here is a partial list of the endpoints that are or will included in the API. 
 Check the endpoint documentation for current status of inclusion.
-* **Ignition** alerts when a vehicle starts or stops
-* **Stop/Idle** alerts when a vehicle stops or idles for a defined threshold in minutes
-* **Speeding** alerts when a vehicle exceeds a static speed threshold (i.e. 85mph)
-* **Posted** alerts when a vehicle exceeds a threshold above posted speed (i.e. 15mph over)
+
+
+* **Acceleration** Alert when a vehicle violates the specified acceleration threshold
+* **Asset Input** Alert when an asset's input changes status 
+* **Deceleration** Alert when a vehicle violates the specified deceleration threshold
+* **Device Plugin** Alert when a driver hasn't plugged in their device after a threshold of being assigned to a vehicle
+* **Diagnostic** Alert when a diagnostic threshold is reached
+* **Driver Assign** Alert when a driver is assigned to a vehicle 
+* **Driver Login** Alert when a driver does not log in when starting a trip 
+* **DTC** Alert on Diagnostic Trouble Codes (supported devices only)
+* **DVIR** Alert when a Driver Vehicle Inspection Report (DVIR) with Defects is received 
+* **DVIR Status** Alert when a vehicle is moving without a DVIR completed or marked unsafe 
+* **First Movement Reverse** Alert when the first device event movement is in reverse
+* **Heartbeat** Alert when Garmin messages reach a specified queue depth 
+* **HOS** Alert when specified Hours of Service (HOS) limit is reached 
+* **HOS Driver Assign** Alert when a vehicle moves without HOS driver assigned 
+* **Idle Time** Alert when a vehicle idles more than the specified limit
+* **Ignition** Alert when a vehicle turns on or off
+* **Inputs** Alert when an input changes status
+* **Jamming** Alert when a supported GPS device detects Radio or GPS Jamming
+* **Landmark** Alert as soon as a vehicle enters or exits a landmark (geofence)
+* **Odd-Hours** Alert on movement within an odd-hours violation window
+* **Out-Of-Range** Alert on vehicles that have not reported for a time
+* **Posted Speed** Alert on vehicles violating posted speed limits (i.e. 15mph over)
+* **Seat Belt Use** Alert when a vehicle exceeds the speed threshold while the seat belt is unbuckled 
+* **Service Reminder** Alert when scheduled service is close or overdue
+* **Speeding** Alert when a vehicle violates the specified speed limit (i.e. 85mph)
+* **Stop/Idle** Alert on a stop or idle longer than a specified duration
+* **Switch** Alert on device switches (supported devices) (i.e. Panic Switch, Power Cycle)PTO, Boom engaged, etc.) 
+* **Towing** Alert when vehicle moves when ignition is off
 
 ### Parameter Help
 Let's look at parameters in logical groups, according to function, 
